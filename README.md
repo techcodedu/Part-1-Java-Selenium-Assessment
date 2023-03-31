@@ -13,10 +13,10 @@ We will use the "https://www.saucedemo.com/" website for this assessment.
 1. Launch a browser of your choice and navigate to "https://www.saucedemo.com/".
 2. Write a Java method that accepts a locator type (ID, Name, ClassName, TagName, CSS, XPath) and a locator value as parameters, and returns a WebElement.
 3. Use the method created in (2) to find and print the following elements:
-   - The logo with the class name "app_logo".
+   - The logo with the class name "login_logo".
    - The username input field with the ID "user-name".
    - The password input field with the ID "password".
-   - The login button with the class name "btn_action".
+   - The login button with the ID "login-button".
 
 ### Interacting with Webelemetns
 
@@ -33,8 +33,8 @@ We will use the "https://www.saucedemo.com/" website for this assessment.
 
 ### Alerts/Windows/Frames
 
-1. Locate an element with the class name "inventory_item_name" and click it. Verify that an element with the class name "inventory_details_name" is present.
-2. Click the button with the class name "btn_primary" to add the item to the cart. Verify that the cart icon shows "1".
-3. Click the cart icon with the class name "shopping_cart_container" and verify that an element with the class name "cart_list" is present.
+1. Locate an element with the class name "inventory_item" and click it. Verify that an element with the class name "inventory_details_name" is present.
+2. Click the button with the class name "btn_primary" to add the item to the cart. Verify that the cart icon shows "1" in the element with the class name "shopping_cart_badge".
+3. Click the cart icon (the shopping cart container), which is an element with the class name "shopping_cart_link", and verify that an element with the class name "cart_list" is present.
 
 Once you have completed the assessment, review your code to ensure that it is properly formatted, documented, and adheres to best practices.
